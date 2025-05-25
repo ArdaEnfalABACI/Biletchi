@@ -1,0 +1,61 @@
+.sepet-panel {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.sepet-panel.open {
+    display: block;
+}
+
+.sepet-item {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.odeme-container {
+    background: whitesmoke; 
+    padding: 20px; 
+    max-width: 600px; 
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px black;
+}
+
+.urun { 
+    border-bottom: 1px solid #ccc; 
+    padding: 10px 0; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.toplam {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    margin-top: 20px; 
+}
+
+.sepet-button { 
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: rgb(210, 180, 140);
+    color: white; 
+    border: none; 
+    border-radius: 
+    5px; cursor: pointer; 
+}

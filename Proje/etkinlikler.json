@@ -1,0 +1,112 @@
+[
+    {
+        "başlık": "Haluk Levent - 30. Yıl Konseri ",
+        "konum": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+        "şehir": "İstanbul",
+        "zaman": "28 Haziran 2025 ",
+        "tür": "Konser",
+        "kontenjan": "1500",
+        "fiyat": "750.00",
+        "resim": "images\/Haluk Levent.jpg",
+        "saat": "21.00"
+    },
+    {
+        "başlık": "Ajda Pekkan Konseri",
+        "konum": "Harbiye Cemil Topuzlu Açıkhava Tiyatrosu",
+        "şehir": "İstanbul",
+        "zaman": "12 Haziran 2025 ",
+        "tür": "Konser",
+        "kontenjan": "2000",
+        "fiyat": "1100.00",
+        "resim": "images\/ajda-pekkan.jpg",
+        "saat": "21.00"
+    },
+    {
+        "başlık": "Hayko Cepkin Konseri",
+        "konum": "Maximum Uniq Açıkhava",
+        "şehir": "İstanbul",
+        "zaman": "30 Mayıs 2025",
+        "tür": "Konser",
+        "kontenjan": 2495,
+        "fiyat": "1100.00",
+        "resim": "images\/haykocepkin.jpg",
+        "saat": "21.00"
+    },
+    {
+        "başlık": "Serdar Ortaç Konseri",
+        "konum": "FestivalPark Yenikapı",
+        "şehir": "İstanbul",
+        "zaman": "9 Haziran 2025",
+        "tür": "Konser",
+        "kontenjan": 2232,
+        "fiyat": "935.00",
+        "resim": "images\/serdar-ortac-konseri.jpg",
+        "saat": "21.00"
+    },
+    {
+        "başlık": "Seviyorsan Git Ayrıl Bence Oyunu ",
+        "konum": "Esenyurt,Hilltown Seyirlik Sahne",
+        "şehir": "İstanbul",
+        "zaman": "29 Mayıs 2025",
+        "tür": "Tiyatro",
+        "kontenjan": "500",
+        "fiyat": "450.00",
+        "resim": "images\/seviyorsan-git-ayril-bence-oyunuavif.jpg",
+        "saat": "20.30"
+    },
+    {
+        "başlık": "Tahsin Hasoğlu Stand-Up",
+        "konum": "Erzurum Necip Fazıl Kısakürek Kültür Merkezi",
+        "şehir": "Erzurum",
+        "zaman": "21 Haziran 2025",
+        "tür": "Stand-Up",
+        "kontenjan": "750",
+        "fiyat": "650.00",
+        "resim": "images\/tahsin-hasoglu.avif",
+        "saat": "20.00"
+    },
+    {
+        "başlık": "Notre Dame’ın Kamburu Oyunu",
+        "konum": "Kahramanmaraş Necip Fazıl Kısakürek Kültür Merkezi",
+        "şehir": "Kahramanmaraş",
+        "zaman": "15 Haziran 2025",
+        "tür": "Tiyatro",
+        "kontenjan": "1000",
+        "fiyat": "400.00",
+        "resim": "images\/notre-damein-kamburu.avif",
+        "saat": "20.00"
+    },
+    {
+        "başlık": "Reynmen Konseri",
+        "konum": "Expo Arena",
+        "şehir": "Kahramanmaraş",
+        "zaman": "29 Mayıs 2025",
+        "tür": "Konser",
+        "kontenjan": 1999,
+        "fiyat": "799.90",
+        "resim": "images\/reynmen-konseri.avif",
+        "saat": "20.30"
+    },
+    {
+        "başlık": "Justin Timberlake Konseri",
+        "konum": "Bakü Olimpiyat Stadyumu",
+        "şehir": "Bakü",
+        "zaman": "27 Temmuz 2025",
+        "saat": "20.00",
+        "tür": "Konser",
+        "kontenjan": "3000",
+        "fiyat": "4174.50",
+        "resim": "images\/justin-timberlake.avif"
+    },
+    {
+        "başlık": "Eskişehir Kahve Festivali",
+        "konum": "Eskişehir Büyükşehir Belediyesi Kentpark",
+        "şehir": "Eskişehir",
+        "zaman": "30 Mayıs 2025",
+        "saat": "12.00",
+        "tür": "Festival",
+        "kontenjan": "1250",
+        "fiyat": "700.00",
+        "resim": "images\/eskisehir-kahve-festivali.avif"
+    }
+]

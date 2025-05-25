@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.login{
+    width: 450px;
+    background: transparent;
+    border: 2px solid grey;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10x black;
+    color:whitesmoke;
+    border-radius: 40px;
+    padding: 30px 40px;
+}
+
+.login h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.login .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;   
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
+
+.input-box input::placeholder{
+    color:white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px;
+}
+
+.login .btn{
+    margin-left: 250px;
+    width: 35%;
+    height: 45px;
+    background:white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login .login-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link p a:hover{
+    text-decoration: underline;
+}

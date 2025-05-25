@@ -1,0 +1,211 @@
+a{
+    text-decoration: none;
+}
+
+.admin-topbar{
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 180, 140);
+    padding: 10px 30px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.admin-topbar .admin-topbar-mid{
+    flex: 5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.admin-topbar .admin-topbar-mid a{
+    padding: 15px;
+    box-shadow: inset 0 0 0 0 rgb(210, 180, 140);
+    transition: color 300ms ease-in-out,box-shadow 300ms ease-in-out;
+    color: black;
+    border-radius: 10px;
+    backdrop-filter:sepia(90%);
+}
+
+.admin-topbar .admin-topbar-mid a:hover{
+    box-shadow: inset 200px 0 0 0 white;
+    color: black;
+}
+
+.admin-topbar .admin-topbar-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.admin-topbar .admin-topbar-left a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.admin-topbar .admin-topbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-topbar .admin-topbar-right a{
+    padding: 15px;
+    box-shadow: inset 0 0 0 0 rgb(210, 180, 140);
+    transition: color 300ms ease-in-out,box-shadow 300ms ease-in-out;
+    color: black;
+    border-radius: 10px;
+    backdrop-filter:sepia(90%)
+}
+
+.admin-topbar .admin-topbar-right a:hover{
+    box-shadow: inset 200px 0 0 0 white;
+    color: black;
+}
+
+.body-ekle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.ekle{
+    width: 450px;
+    background: transparent;
+    border: 2px solid grey;
+    box-shadow: 0 0 10x black;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    padding: 30px 40px;
+}
+
+.ekle .input-ekle{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-ekle input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
+
+.ekle .btn{
+    margin-left: 250px;
+    width: 35%;
+    height: 45px;
+    background:gray;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 5px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+tr:nth-child(even) .sil {
+  background-color: gainsboro;
+}
+
+.sil{
+    padding: 6px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.sil:hover{
+    background-color: red;
+}
+
+tr:nth-child(even) .sil:hover {
+  background-color: red;
+}
+
+tr:nth-child(even) .onayla {
+  background-color: gainsboro;
+}
+
+.onayla{
+    padding: 6px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.onayla:hover{
+    background-color: green;
+}
+
+tr:nth-child(even) .onayla:hover {
+  background-color: green;
+}
+
+tr:nth-child(even) .düzenle {
+  background-color: gainsboro;
+}
+
+.düzenle{
+    padding: 6px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}
+
+.düzenle:hover{
+    background-color: rgb(210, 180, 140);
+}
+
+tr:nth-child(even) .düzenle:hover {
+  background-color: rgb(210, 180, 140);
+}
+
+.etkinlik-ekle{
+    margin-left: 690px;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    padding: 10px ;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 2px 2px 4px black;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.etkinlik-ekle:hover{
+    background-color:  rgb(210, 180, 140);
+}
